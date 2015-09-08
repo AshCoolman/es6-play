@@ -9,6 +9,8 @@
   "author": "Ashley Coleman <writetofish@gmail.com> (http://ashcoolman.com)",
   "license": "ISC",
   "devDependencies": {
+    "babel-loader": "^5.3.2",
+    "coffee": "^1.2.0",
     "webpack": "^1.12.1"
   }
 }
