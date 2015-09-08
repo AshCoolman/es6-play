@@ -1,0 +1,14 @@
+{
+  "name": "es6-play",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ashley Coleman <writetofish@gmail.com> (http://ashcoolman.com)",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^1.12.1"
+  }
+}
