@@ -42,12 +42,24 @@
 /************************************************************************/
 /******/ ([
 /* 0 */
+/***/ function(module, exports, __webpack_require__) {
+
+	// require('coffee-script/register');
+	"use strict";
+
+	__webpack_require__(1);
+
+/***/ },
+/* 1 */
 /***/ function(module, exports) {
 
-	document.write('boom');
+	'use strict';
 
-	console.log("hello");
+	console.log('hello');
 
+	var thing = 1;;
+
+	module.exports = 'test';
 
 /***/ }
 /******/ ]);

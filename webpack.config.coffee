@@ -1,9 +1,10 @@
 module.exports =
-    entry: './entry.coffee'
+    entry: './entry.js'
     output:
         path: __dirname + '/dist'
         filename: 'bundle.js'
     module:
         loaders: [
-            test: /\.coffee$/, loader: 'coffee'
+            { test: /\.coffee$/, loader: 'babel-loader!coffee-loader' }
+            { test: /\.js$/, loader: 'babel-loader'}
         ]
